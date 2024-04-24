@@ -2,11 +2,14 @@
 //
 // No hints this time! ;)
 
-// I AM NOT DONE
 
 #[derive(Debug)]
 enum Message {
-    // TODO: define a few types of messages as used below
+    Quit = 0, 
+    Echo = 1,
+    Move = 2,
+    ChangeColor = 3
+
 }
 
 fn main() {
